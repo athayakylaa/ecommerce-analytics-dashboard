@@ -98,6 +98,21 @@ hr {border-color:#E8ECF3 !important; margin: 1.45rem 0 !important;}
  .kpi-value {font-size:1.45rem;}
  .hero-title {font-size:2rem;}
 }
+
+/* FIX SIDEBAR */
+[data-testid="stSidebar"] {
+    background-color: #FFFFFF !important;
+}
+
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] span,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    color: #1E293B !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
